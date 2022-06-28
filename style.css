@@ -8,9 +8,13 @@
 }
 
 .text-gold {
-    color: rgba(206, 161, 62, 1)
+    color: rgba(206, 161, 62, 0.9)
 }
 
 .header2 {
     font-size: 40px;
+}
+
+.header2.text-list {
+    color: rgba(132, 0, 0, 0.8)
 }
