@@ -31,3 +31,7 @@ img {
 .list-steps {
     background-color: beige;
 }
+
+li {
+    list-style-type: none;
+}
