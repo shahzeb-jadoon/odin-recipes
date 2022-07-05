@@ -40,7 +40,7 @@ a {
     text-decoration: none;
 }
 
-ul {
+.list-headers {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
