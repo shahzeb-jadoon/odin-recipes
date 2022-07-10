@@ -45,3 +45,7 @@ a {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+.recipe-image {
+    width: 100%;
+}
