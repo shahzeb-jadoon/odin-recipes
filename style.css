@@ -32,7 +32,7 @@ img {
     background-color: beige;
 }
 
-li {
+.list-ingredients {
     list-style-type: none;
 }
 
