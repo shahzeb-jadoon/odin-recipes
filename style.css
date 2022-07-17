@@ -1,31 +1,50 @@
+/* This sheet follows ITCSS Architecture */
+
+/* Settings */
+
+/* Tools */
+
+/* Generic */
 * {
     font-family: Helvetica, Verdana, sans-serif;
 }
 
+/* Elements */
 h1 {
     text-align: center;
     font-size: 70px;
-}
-
-.text-gold {
-    color: rgba(206, 161, 62, 0.9)
 }
 
 h2 {
     font-size: 40px;
 }
 
-.recipe-title {
-    color: rgba(132, 0, 0, 0.8)
-}
-
-.text-regular {
-    font-size: 20px;
+a {
+    text-decoration: none;
 }
 
 img {
     height: auto;
     width: 1815px;
+}
+
+/* Objects */
+.recipe-title {
+    color: rgba(132, 0, 0, 0.8)
+}
+
+.recipe-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Components */
+.text-gold {
+    color: rgba(206, 161, 62, 0.9)
+}
+
+.text-regular {
+    font-size: 20px;
 }
 
 .list-steps {
@@ -44,18 +63,9 @@ img {
     gap: 10px;
 }
 
-a {
-    text-decoration: none;
-}
-
 .list-headers {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     list-style-type: none;
-}
-
-.recipe-image {
-    width: 100%;
-    border-radius: 8px;
 }
