@@ -140,3 +140,7 @@ img {
     flex-wrap: wrap;
     list-style-type: none;
 }
+
+.list-headers:hover {
+  text-decoration: underline;
+}
