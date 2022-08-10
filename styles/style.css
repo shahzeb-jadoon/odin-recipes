@@ -141,6 +141,6 @@ img {
     list-style-type: none;
 }
 
-.list-headers:hover {
+.hover-effect:hover {
   text-decoration: underline;
 }
