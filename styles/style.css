@@ -139,6 +139,7 @@ img {
     justify-content: space-evenly;
     flex-wrap: wrap;
     list-style-type: none;
+    gap: 10px;
 }
 
 .hover-effect:hover {
